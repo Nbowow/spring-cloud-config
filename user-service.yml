@@ -1,11 +1,11 @@
 token:
   expiration_time: 86400000
-  secret: user_token_application_changed_#2
+  secret: yorijori_user_token_secret
 
 gateway:
   ip: 172.22.0.11
 
-order_service:
+# order_service:
   # url: http://localhost:8000/order-service/%s/orders
-  url: http://order-service/order-service/%s/orders
+  # url: http://order-service/order-service/%s/orders
   # htt://{Microservice name}/{url}/{userId}/orders
